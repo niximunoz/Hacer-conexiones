@@ -19,7 +19,7 @@
                     <li><a href="#" class="active">My Profile</a></li>
                     <li>Find Connections: <input id="busqueda" type="text"></li>
                     <li>
-                        <button class="btn" onclick="logout(this)">Sign Out</button>
+                        <button class="btn">Sign Out</button>
                     </li>
                 </ul>
             </div>
@@ -75,8 +75,8 @@
                                 Todd E
                             </span>
                             <span class="buttons">
-                                <img onclick="agregarConexion(this)" src="icons/accept-circle.png" alt="accept" class="icon">
-                                <img onclick="removerConexion(this)" src="icons/close-circle.png" alt="close" class="icon">
+                                <img onclick="removerConexion(this,'aceptar')" src="icons/accept-circle.png" alt="accept" class="icon">
+                                <img onclick="removerConexion(this, 'remover')" src="icons/close-circle.png" alt="close" class="icon">
                             </span>
                         </li>
                         <li class="card-list-item">
@@ -85,8 +85,8 @@
                                 Phil E
                             </span>
                             <span class="buttons">
-                                <img onclick="agregarConexion(this)" src="icons/accept-circle.png" alt="accept" class="icon">
-                                <img onclick="removerConexion(this)" src="icons/close-circle.png" alt="close" class="icon">
+                                <img onclick="removerConexion(this,'aceptar')" src="icons/accept-circle.png" alt="accept" class="icon">
+                                <img onclick="removerConexion(this, 'remover')" src="icons/close-circle.png" alt="close" class="icon">
                             </span>
                         </li>
                     </ul>
@@ -117,7 +117,7 @@
                         </li>
                     </ul>
                     <div class="card-footer">
-                        <a href="#" onclick="verMas(this)">View More</a>
+                        <a href="#">View More</a>
                     </div>
                 </div>
 
